@@ -7,4 +7,113 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+
+section{
+    padding: 3rem 0 4rem 0;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.gray {
+    background-color: #f7f7f7;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+footer{
+    background-color: #3789bf;
+}
+
+.intro p{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+button{
+        padding: 10px 25px;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-right: 5px;
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.primary{
+    color: white;
+    background-color: #578af6;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.secondary{
+    color: black;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.intro .cta{
+    margin: 2rem 0;
+}
+
+.button:hover{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+h1.title{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+    
+        height: 150px;
+        display: flex;
+        flex-direction: column;        
+        width: 18%;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+        font-size: 1.7rem;
+    }
+
+.card.red{
+    background-color: #960c0c;
+}
+
+.card.purple{
+    background-color: purple;
+}
+
+.card.yellow{
+    background-color: yellow;
+}
+
+.card.blue{
+    background-color: blue;
+}
+
+.card.green{
+    background-color: green;
 }
